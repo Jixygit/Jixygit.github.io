@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BSIT-SD 2B Schedule</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📅 BSIT-SD 2B (2nd Sem) Schedule</h1>
+
+<div class="schedule" id="grid">
+  <div></div>
+  <div class="header">Mon</div>
+  <div class="header">Tue</div>
+  <div class="header">Wed</div>
+  <div class="header">Thu</div>
+  <div class="header">Fri</div>
+  <div class="header">Sat</div>
+  <div class="header">Sun</div>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3>Edit Class</h3>
+    <input id="mTitle" placeholder="Subject">
+    <input id="mTeacher" placeholder="Instructor">
+    <input id="mRoom" placeholder="Room">
+    <input id="mMeet" placeholder="Google Meet link">
+    <textarea id="mReminder" placeholder="Reminder"></textarea>
+    <button onclick="saveEdit()">Save</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
